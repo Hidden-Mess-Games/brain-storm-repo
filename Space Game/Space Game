@@ -1,0 +1,101 @@
+Idea for a space game (I keep thinking it would be on the moon, but doesn't have to be)
+
+Player has a pre-made starter base with some bare necessities.
+They can adventure out further and upgrade their tech to make living a bit easier.
+There are 3 radio towers that have been damaged by seismic activity, and need repairs.
+  These radio relays each link to an external base even further away from the players initial base, that are not easy to reach.
+  
+  The three external bases are these:
+    1. Seismic activity base:
+      Detects alien activity below the surface and gives the player a pre-warning of impending alien attacks
+    2. Artillery base:
+      Allows the player to call in artillery and kill enemies from afar
+    3. Mechanic base:
+      Allows the player to build more vehicles: walker, bike, tank, better auto-turrets, walls...
+    
+  After all three relays have been connected, the player receives an external message about a shuttle that crashed.
+  The shuttle is in pieces around the main base, but can be reconstructed at the mechanic base.
+  The main base can now use a radar to find the pieces of the shuttle.
+  The mechanics base can build a vehicle to carry the shuttle piece, and repair them.
+  
+After each relay/base is opened, alien activity increases, and the game would get a bit more difficult.
+
+After all bases have been opened up, alien activity would increase quite a bit, with more frequent attacks and bigger enemies.
+  
+The game could start the player in the main base, with some super easy tasks to get familiar with the surroundings.
+  Fix the power: walk outside and switch from one battery to another.
+
+
+Some mechanic ideas, kinda in "priority" order but it's loose:
+  All the stuff above
+  Day/night cycle (would look totally dope)
+  Health
+  Oxygen consumption
+  Resource collection
+  Tech upgrades
+    Better oxygen tank
+    Binoculars
+    Mini-map display
+  Lunar rover car
+  Enemies
+  Weapons
+  Base-building
+  Auto-turrets
+  Hunger and thirst
+  Food/water
+  Jetpack for flying around
+  Waypoint markers that can be placed (like a milemarker with a light on top)
+  First/third-person camera toggle
+  Extremely minimal UI, with info available via in-environment displays
+  Landmines
+  Smaller easter-eggs that the player can find from exploring the surrounding area
+  
+  
+Some art style options:
+  Super-minimal UI:
+    Pretty much everything that the player needs to know could be represented within the environment.
+    For example: the status of the three radio towers could be shown on a hologram display in the main base:
+      They would all start "offline" or "disconnected" or something like that, as they are repaired the would change
+    The player's arms could have indicators for oxygen and fuel
+      There could also be pop-up wrist mechanics for a minimap or an artillery targeting reticle
+    The rover could have a gas gauge
+    A combo first/third-person camera could help with this because it would allow more real-estate on the player
+  Day-night cycles could be really cool with stars and local lighting, it could also be used for alien aggression  
+  Sound design would be fun. Atmosphere vs. no atmosphere. Would guns make noise? Would there be a breathing thing for the space suit?
+  
+  
+High-Level Creation Process:
+  -Create alien planet surface
+    -Create material
+    -Create landscape in unreal
+      -Procedural noise for extra detail?
+      -Statically created or procedural?
+  -Create basic blockouts of large items   
+    -Blockout main base
+    -Blockout antennae
+    -Blockout external bases
+    -Add objects that represent player interactables so that other mechanics can be worked on at the same time
+  -Create simple character controls
+    -First/third person starter content would basically do this for us
+    -Work on jumping/movement and other player controls
+    -Could start on flying, i:e; jetpack mechanics
+    
+  -After player and planet surface are created, other mechanics can be added
+  -Art can be iterated while mechanics are being made
+    
+  -Add Radio Relay connection mechanics
+    -Relays need to be repaired somehow
+    -Relay should connect back to main base and trigger some events that change something (can be super simple at start)
+  -Add external base mechanics
+    -External bases need to be repaired somehow
+    -After they are repaired the player gets a new mechanic unlock
+  
+  -After main base/relay mechanics have been made, the core is basically finished, now for the fun stuff
+    -Moon car, explore driving mechanics
+    -Jetpack/flying polishing
+    -Slow-mo bullet-time with 80's synth music???
+      -I imagine a moon rover flying over a hill in low-gravity, 
+        getting sick air while aliens are coming out of the ground and someone is firing a turret
+        with auto-turrets to the side unloading at enemies
+    -We could basically add whatever from here on out, cause the main game is mostly done
+  

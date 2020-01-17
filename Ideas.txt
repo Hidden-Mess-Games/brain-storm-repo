@@ -1,0 +1,77 @@
+MAX'S IDEAS
+
+Eldritch Horror Powergame
+- Demons or some form of evil have taken over earth
+- You come in afterwards, and are there to fight them
+but not for good, for challenging world domination
+- Sort of casual power game that can be more difficult
+if you want it to be
+- More so a puzzle game than anything with powers
+like black holes, and other powers
+
+Open World Survival Game (Dark souls story and quest system)
+- Tight mechanics around shooting
+- You don't neccesarily earn levels to increase power
+- Enemies don't scale, but are still dangerous
+- Weapons scale with type of weapon, but due to skills
+- (Possible skyrim system where the more you do something the more you level it up?)
+
+Themes/Settings (separate from game mechanics):
+- Abandoned World Theme (Google: Abandoned Russian buildings for Reference)
+	- Empty buildings, not necessarily destroyed just old and left to dust
+    - Lots of nature/overgrowth
+- The sun has changed, and weird events are occuring because of it
+- A star being lands on Earth immediately after a WWIII type event to find it 
+overrun by evil... little does the evil know that all its plans are about to be ruined
+
+EVAN'S IDEAS
+
+First Person Planet Siege
+- Tight shooting mechanics
+- Orbital Drop into alien planet
+	- Similar to Quake 4 idea wise
+- Humanity invading planet for purpose of self-defense
+- You participate in different parts of a siege on a planets
+- You fight with different groups, infantry, tank, air etc.
+
+Underground Civilization
+-Humans sent out colonists to estabisha  settlement
+-Had to establish it underground
+-There was another alient species there
+-All out undergournd war is currently taking place
+-Humans from another colony arrived at their distress beacon
+
+Space RPG
+- It's a space RPG
+
+NICK'S IDEAS
+
+Space Shooter
+- Lots of potential variety in spaceships/atmospheres without lots of coding baggage on top
+- Variety of ship sizes could allow for neat rock-paper-scissors interactions
+- Prototyping would likely be easy, with simple blockouts for ships
+- Simple objects could allow for Fashion-Souls style customization of ships
+
+- Something along the lines of a round-based style game, similar to Overwatch or World of Tanks/Warships
+- Easily expanded upon, but could have very few initial working parts for the whole game
+- Seems like there would be a fairly even split of game-mechanics, network/engine mechanics, and art responsibilities
+
+Subnautica but in space
+- Start on an alien planet, something like minecraft mixed with factorio, build stuff to get off the planet and explore further out.
+Build-Plan for something like this would be the following:
+	- Create basic terrain mesh with simple shader in unreal to begin testing gravity/resource collection
+	- One person (artist) create blockouts of resource objects and provide to level, other person (coder) creates mechanics behind how resource collection works
+	- As more mechanics get added, artist can create blockouts for coder to use while iteratively creating new shaders and meshes
+	Some starting mechanics ideas:
+	- mine some rocks and get resources
+	- moon = low gravity jumping, (special boots for normal jumping ?). Gravity in general could be played with
+	- player has limited oxygen supply and has to recycle oxygen at base
+	- larger oxygen tank so player can be outside base longer 
+	- A moon rover car, low grav jumps would be fun
+	- build a gun/knife or some other moon-future NASA weapon
+	- day/night cycles
+	- some sort of food/water farming mechanics
+	- flight (jetpack?)
+	- environmental hazards (moonquakes???)
+	- Creatures? This should come later because it would likely require more in-depth art work
+
